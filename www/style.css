@@ -1,0 +1,257 @@
+html {
+    height: 100%;
+	width:100%;
+	text-align: center;
+}
+
+body{
+	background-color:#2E2E2E;
+	max-width:1920px;
+	min-width:800px;
+	width:80%;
+    margin-left:auto;
+    margin-right:auto;
+	margin-bottom:0px;
+	height:1000px;
+	overflow:scroll;
+}
+.back{
+	left:10px;
+	width:calc(100%-20px);
+	bottom:50px;
+	background-image: url("7eW0b4v.jpg");
+}
+.nav{
+	margin-top: -20px;
+	padding-bottom:2px;
+	padding-top:2px;
+	margin-left:50px;
+	margin-right:50px;
+	display:block;
+	float:center;
+}
+.bod{
+	width:100%;
+	height:1550px;
+	width:80%;
+	margin-left:auto;
+    margin-right:auto;
+	max-width:850px;
+}
+
+.play{
+	position: static;
+	width:35%;
+	max-width: 350px;
+	height:300px;
+	margin-top: 50px;
+	box-sizing: border-box;
+	float:left;
+}
+.blog{
+	position: static;
+	margin-right: 0px;
+	margin-top: 50px;
+	width:calc(65% - 50px);
+	max-width: 550px;
+	height:300px;
+	float:left;
+	margin-left:50px;
+}
+.friends{
+	position: static;
+	margin-right: 0px;
+	margin-top: 75px;
+	width:100%;
+	height:400px;
+	float:left;
+	margin-left:auto;
+}
+
+.comments{
+	position: static;
+	margin-right: 0px;
+	margin-top: 75px;
+	width:100%;
+	/*height:400px;*/
+	/*margin-top:500px;*/
+	float:left;
+	margin-left:auto;
+}
+
+.games{
+	position: static;
+	margin-right: 0px;
+	margin-top: 50px;
+	width:100%;
+	height:400px;
+	float:left;
+	margin-left:auto;
+}
+
+.forum{
+	position: static;
+	margin-left: 0px;
+	margin-top: 50px;
+	width:calc(65% - 50px);
+	max-width: 550px;
+	height:300px;
+	float:left;
+	margin-right:50px;
+}
+
+.pic{
+	position: relative;
+	margin-right: 0px;
+	margin-top: 50px;
+	width:60%;
+	height:450px;
+	float:left;
+	margin-left:auto;
+}
+.buy{
+	position: static;
+	margin-right: 0px;
+	margin-top: 50px;
+	width:calc(35% - 50px);
+	max-width: 550px;
+	height:300px;
+	float:left;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+
+h1{
+	font-family:'coolvetica';
+	font-size:50px;
+	color:white;
+	text-shadow: 3px 3px #000000;
+	margin-left: 50px;
+}
+h2{
+	font-family:'coolvetica';
+	font-size:25px;
+	color:white;
+	text-shadow: 3px 3px #000000;
+	margin-left:50px;
+}
+h3{
+	text-align:center;
+	margin-left:0px;
+	font-family:'coolvetica';
+	font-size:30px;
+	color:white;
+	text-shadow: 3px 3px #000000;
+	padding-top:10px;
+	margin-top:0px;
+	z-index:-9;
+	
+}
+p{
+	text-align:center;
+	margin-left:0px;
+	font-family:'coolvetica';
+	font-size:20px;
+	color:white;
+	text-shadow: 2px 2px #000000;
+}
+
+@font-face{
+    font-family: 'coolvetica';
+    src: url('coolvetica.ttf');
+}
+
+div:not(.bod):not(.footer):not(.footer2):not(.noBack):not(#slideshow){
+	box-shadow: 3px 3px 5px #000000;
+	background-color:#494949;
+	z-index: -99;
+}
+
+/*
+li{
+	display: inline;
+    list-style-type: none;
+	margin-right: 75px;
+    padding: 0;
+}
+*/
+li{
+	list-style-type: none;
+}
+
+
+
+a{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 1);
+}
+
+
+.footer{
+	background-color: #2A2A2A;
+	width:100%;
+	overflow:show;
+	position:relative;
+	/*top: calc(100% - 160px);*/
+	height:65px;
+	margin:0;
+	padding:0;
+	left:0;
+	display:block;
+}
+
+
+.footer2{
+	background-color: #1f1f1f;
+	width:100%;
+	overflow:show;
+	position:relative;
+	/*top: calc(100% - 160px)*/;
+	float:bottom;
+	height:160px;
+	margin:0;
+	padding:0;
+	left:0;
+	display:block;
+}
+
+.footer2 p{
+	display:block;
+	color:#555555;
+	font-family: "proxima-nova";
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1em;
+	position:relative;
+	text-align:center;
+	/*left: calc(50% - 71.5px);*/
+	margin:0;
+	padding:0;
+	top:50%;
+	margin:0;
+	padding:0;
+	height:20px;
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 5px; 
+    left: 5px; 
+    right: 5px; 
+    bottom: 6px;
+	overflow:hidden;	
+}
+img{
+	max-width:200%;
+	max-height:200%;
+	overflow:hidden;
+}
+#slideshow{
+	position: relative;
+	height:100%;
+	 z-index: -1;
+	margin-top:-75px;;
+}

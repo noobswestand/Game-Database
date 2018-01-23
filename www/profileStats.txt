@@ -1,0 +1,2 @@
+<div class="blog">
+<h3>Stats</h3>

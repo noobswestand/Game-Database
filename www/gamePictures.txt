@@ -1,0 +1,4 @@
+<!-- Pictures -->
+<div class="pic">
+	<h3>Media</h3>
+		<div id="slideshow">

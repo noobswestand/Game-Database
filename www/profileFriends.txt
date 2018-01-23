@@ -1,0 +1,2 @@
+<div class="friends">
+<h3>Friends</h3>

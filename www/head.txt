@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<script src="full_jquery.js"></script>
+		<script type="text/javascript" src="jquery.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="style.css"/>
+		<style type="text/css"></style>
+		<title>Games Games Games!</title>
+	</head>
+	
+	<body>
+		
+		
+		
