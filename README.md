@@ -24,4 +24,4 @@ In here you will find:
 
 
 A live version of the website can be found here:
-dank.x10host.com/user.php?act=show&user=1
+dank.x10host.com/Demo/user.php?act=show&user=1
