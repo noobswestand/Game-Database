@@ -22,7 +22,7 @@ In here you will find:
   - All of the data is valid, and none of it points to invalid data
   
   
-##PHP files
+## PHP files
 These are split up into seperate files depending on thier function
 
 - **database.php**
@@ -35,4 +35,4 @@ These are split up into seperate files depending on thier function
 ---
 
 A live version of the website can be found here:
-[LiveDemo](dank.x10host.com/Demo/user.php?act=show&user=1)
+>dank.x10host.com/Demo/user.php?act=show&user=1
